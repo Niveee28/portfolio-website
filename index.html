@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charsets="X-Ua">
+<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+<meta name="viewport" content="Width=device-width, initial-scale=1.0">
+<title>Personal portfolio website</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/369f6abcb5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+               
+        </nav>
+        <div class="header-text">
+    
+        <p>web developer</p>
+        <h1>Hi,I'm <span>NIVETHA</span></h1>
+    </div>
+    </div>
+</div>
+<!---------about------->
+<div id="about">
+  <div class="container">
+    <div class="row" >
+        <div class="about-col-1">
+           <img src="images/user.jpg">
+           
+        </div>
+        <div class="about-col-2">
+            <h1 class= "sub-title">About me</h1>
+            <p>Enthusiastic and motivated Computer Science graduate with a strong academic background and a passion for technology. Skilled in programming languages, software development, and problem-solving. Demonstrates a proactive approach to learning and embraces emerging technologies. Committed to delivering innovative solutions and contributing to the advancement of the digital landscape. Seeking opportunities to apply knowledge and SKILLS in a challenging and dynamic work environment.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                <p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p>
+            </div>
+            <div class="tab-contents active-tab" id="SKILLS">
+                <ul>
+                    <li><span>WEB DEVELOPMENT</span><br>creating of websites</li>
+                    <li><span>DATA SCIENTIST</span><br>skilled in the field of data analysis</li>
+                    <li><span>DBMS</span><br>well know in data base management system</li>
+            
+        
+                    <li><span>DATA STRUCTURES</span><br>skilled in data structure and algorithm</li>
+                    <li><span>CODER</span><br>well expert in the PHYTHON, C, JAVA, JAVASCRIPT, CSS</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="EDUCATION">
+                <ul>
+                    <li><span>SSKV MATRIC HR SEC SCHOOL</span><br> Scored 90% in 10th grade</li>
+                    <li><span>SSKV MATRIC HR SEC SCHOOL</span><br> Scored 86% in 11th grade</li>
+                    <li><span>SSKV MATRIC HR SEC SCHOOL</span><br> scored 95% in 12th grade</li>
+                    <li><span>UNIVERSITY COLLAGE OF ENGINEERING KANCHIPURAM</span><br> scored 7.8 cgpa in 1st year</li>
+                    <li><span>UNIVERSITY COLLAGE OF ENGINEERING KANCHIPURAM</span><br> scored 8.0 cgpa in 1st year</li>
+                </ul>
+            </div>
+             </div>
+        </div>
+    </div>
+  </div> 
+</div>
+<!-------services----->
+<div id="services">
+    <div class="container">
+        <h1 class= "sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-cubes"></i>
+                <h2>Web DEVELOPMENT</h2>
+                <p>I combine technical expertise, creativity, and a passion for crafting exceptional online experiences. As an experienced web developer, I offer a wide range of services to help businesses and individuals establish a strong online presence and achieve their digital goals. Whether you need a simple website, an e-commerce platform, or a complex web application, I am here to turn your vision into reality.
+
+                    Services Offered:</p>
+                 <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>data SCIENTIST</h2>
+                <p> I harness the power of data to drive insightful decision-making and uncover valuable insights for businesses and organizations. As a skilled data scientist, I offer a comprehensive range of services to help clients leverage their data assets and transform them into actionable strategies. With expertise in statistical analysis, machine learning, and data visualization, I am dedicated to empowering businesses with the tools they need to thrive in the data-driven era.</p>
+                 <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>PHYTHON DEVELOPER</h2>
+                <p>I offer my expertise in python coding and programming to help clients bring their ideas to life and develop high-quality software solutions. As a skilled coder, I am dedicated to delivering clean, efficient, and reliable code that meets your specific requirements. From developing new applications to optimizing existing codebases, I am committed to providing exceptional coding services tailored to your needs.</p>
+                 <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------portfolio--->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+         <div class="work">
+         <img src="images/work-1.png">
+         <div class="layer">
+            <h3>Social media app</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from playstore.
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </h3>
+         </div>
+         </div>
+         <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Music app</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from playstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    
+             </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>online shopping app</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from playstore.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            
+                 </div>
+                </div>
+       </div>
+       <a href="#" class="btn">See more</a>
+    </div>
+
+</div>
+
+<!-------------------contact------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+        <h1 class="sub-title">contact me</h1>
+        <p><i class="fa-solid fa-share-from-square"></i>nivetha28n@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>9080836053</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/invites/contact/?i=1jxbn6628cjj9&utm_content=hwop9h1"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/nivetha-s-7b6a5b249"><i class="fa-brands fa-linkedin"></i></a>  
+        </div>
+        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+    </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="name" placeholder="your name" required>
+            <input type="email" name="email" placeholder="your email" required>
+            <textarea name="message" rows="6" placeholder="your message" ></textarea>
+            <button type="submit" class="btn btn2">submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Nivetha.made with  <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<!--------html--->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+        
+    }
+</script>
+<script>
+    const scriptURL ='https://script.google.com/macros/s/AKfycbyKk6aLuZT2m72qLUN1vh9HSHYub2wkTnoSe0UJTv4UMUEXdtO3XkqMM0H96rws5CGU/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
